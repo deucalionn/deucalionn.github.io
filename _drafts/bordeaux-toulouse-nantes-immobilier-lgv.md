@@ -17,7 +17,8 @@ sources:
   - brain/external-sources/bordeaux-euratlantique-oin.md
 created: 2026-07-11
 author: agent
-tags: [research, provisional, bordeaux, toulouse, nantes, immobilier, lgv, crise-logement]
+tags: [ research, provisional, bordeaux, toulouse, nantes, immobilier, lgv, crise-logement ]
+date: 2026-07-11
 ---
 
 ## Question principale
