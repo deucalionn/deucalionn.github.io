@@ -5,17 +5,17 @@ title: Pourquoi Bordeaux reste plus cher que Nantes et Toulouse ?
 description: Étude comparative — LGV 2017, permis, population, crise du logement bordelais, et scénario prix toulousain 2026-2032.
 permalink: /new-article/
 sources:
-  - sources/new-article/ladepeche-bordeaux-tgv-2017.md
-  - sources/new-article/meilleurs-agents-bordeaux-2017.md
-  - sources/new-article/lesechos-bordeaux-lgv-2017.md
-  - sources/new-article/lesechos-nantes-lgv-2017.md
-  - sources/new-article/ladepeche-castex-lgv-toulouse-2022.md
-  - sources/new-article/ladepeche-toulouse-3e-ville-2026.md
-  - sources/new-article/nexity-prix-metropoles-2013-2023.md
-  - sources/new-article/permisapi-bordeaux-33063.md
-  - sources/new-article/permisapi-nantes-44109.md
-  - sources/new-article/permisapi-toulouse-31555.md
-  - sources/new-article/bordeaux-euratlantique-oin.md
+  - external-sources/new-article/ladepeche-bordeaux-tgv-2017.md
+  - external-sources/new-article/meilleurs-agents-bordeaux-2017.md
+  - external-sources/new-article/lesechos-bordeaux-lgv-2017.md
+  - external-sources/new-article/lesechos-nantes-lgv-2017.md
+  - external-sources/new-article/ladepeche-castex-lgv-toulouse-2022.md
+  - external-sources/new-article/ladepeche-toulouse-3e-ville-2026.md
+  - external-sources/new-article/nexity-prix-metropoles-2013-2023.md
+  - external-sources/new-article/permisapi-bordeaux-33063.md
+  - external-sources/new-article/permisapi-nantes-44109.md
+  - external-sources/new-article/permisapi-toulouse-31555.md
+  - external-sources/new-article/bordeaux-euratlantique-oin.md
 tags: [bordeaux, toulouse, nantes, immobilier, lgv, crise-logement]
 ---
 
@@ -24,7 +24,7 @@ tags: [bordeaux, toulouse, nantes, immobilier, lgv, crise-logement]
 **Pourquoi Bordeaux reste-t-il nettement plus cher que Nantes et Toulouse** — avec une **crise du logement** visible — alors que :
 
 - **Nantes** a reçu la **même LGV Paris-Ouest en 2017** (~2 h de Paris) ;
-- **Toulouse** est devenue la **3e commune de France** (~515 000 hab.), portée par l'aéronautique et la croissance démographique la plus forte du pays [La Dépêche Tls](../sources/new-article/ladepeche-toulouse-3e-ville-2026.md) ?
+- **Toulouse** est devenue la **3e commune de France** (~515 000 hab.), portée par l'aéronautique et la croissance démographique la plus forte du pays [La Dépêche Tls](../external-sources/new-article/ladepeche-toulouse-3e-ville-2026.md) ?
 
 **Question secondaire :** Toulouse va-t-elle connaître une **envolée des prix** d'ici 2030-2032 (LGV annoncée en 2022, service prévu 2032), sachant que **Nantes est déjà plus chère** qu'elle aujourd'hui ?
 
@@ -159,8 +159,8 @@ drawChart('p4',[ {data:idx(bdx.price),color:'var(--chart-1)'},{data:idx(nte.pric
 
 **Prix — même LGV, amplitude différente**
 
-- **Bordeaux** : +15 % en 2016 (anticipation), puis +12 à +17 % en 2017 → ~3 600 €/m². Frénésie d'achat, pénurie [Les Echos Bdx](../sources/new-article/lesechos-bordeaux-lgv-2017.md) [La Dépêche Bdx](../sources/new-article/ladepeche-bordeaux-tgv-2017.md).
-- **Nantes** : +4 % appartements, +12 % maisons sur 2016-17 ; marché « encore fourni » [Les Echos Nte](../sources/new-article/lesechos-nantes-lgv-2017.md). Sur 10 ans : +56 % vs **+69 %** à Bordeaux [Nexity](../sources/new-article/nexity-prix-metropoles-2013-2023.md).
+- **Bordeaux** : +15 % en 2016 (anticipation), puis +12 à +17 % en 2017 → ~3 600 €/m². Frénésie d'achat, pénurie [Les Echos Bdx](../external-sources/new-article/lesechos-bordeaux-lgv-2017.md) [La Dépêche Bdx](../external-sources/new-article/ladepeche-bordeaux-tgv-2017.md).
+- **Nantes** : +4 % appartements, +12 % maisons sur 2016-17 ; marché « encore fourni » [Les Echos Nte](../external-sources/new-article/lesechos-nantes-lgv-2017.md). Sur 10 ans : +56 % vs **+69 %** à Bordeaux [Nexity](../external-sources/new-article/nexity-prix-metropoles-2013-2023.md).
 
 **Permis — le début de l'écart**
 
@@ -170,10 +170,10 @@ drawChart('p4',[ {data:idx(bdx.price),color:'var(--chart-1)'},{data:idx(nte.pric
 
 **Effet parisien — un amplificateur de prix absent à la même échelle ailleurs**
 
-Les notaires relient explicitement la flambée bordelaise à l'**installation de nombreux Parisiens** et à la gentrification des quartiers populaires [La Dépêche Bdx](../sources/new-article/ladepeche-bordeaux-tgv-2017.md). Mécanisme : un ménage qui **vend ou capitalise à Paris** (prix médian ~2,5× plus élevés qu'à Bordeaux en 2017) peut **surenchérir** sur le marché local — des prix « chers pour un Bordelais » restent **abordables pour un Parisien** qui arbitrage qualité de vie + LGV 2 h. Les notaires observent d'ailleurs des acquéreurs venant « de tout l'Hexagone » [Les Echos Bdx](../sources/new-article/lesechos-bordeaux-lgv-2017.md), mais l'apport parisien pèse par son **pouvoir d'achat relatif**, pas seulement par son volume.
+Les notaires relient explicitement la flambée bordelaise à l'**installation de nombreux Parisiens** et à la gentrification des quartiers populaires [La Dépêche Bdx](../external-sources/new-article/ladepeche-bordeaux-tgv-2017.md). Mécanisme : un ménage qui **vend ou capitalise à Paris** (prix médian ~2,5× plus élevés qu'à Bordeaux en 2017) peut **surenchérir** sur le marché local — des prix « chers pour un Bordelais » restent **abordables pour un Parisien** qui arbitrage qualité de vie + LGV 2 h. Les notaires observent d'ailleurs des acquéreurs venant « de tout l'Hexagone » [Les Echos Bdx](../external-sources/new-article/lesechos-bordeaux-lgv-2017.md), mais l'apport parisien pèse par son **pouvoir d'achat relatif**, pas seulement par son volume.
 
 > [!IMPORTANT]
-> Ce n'est pas le seul moteur (investisseurs actifs = 35 % des acquisitions ; Parisiens « très minoritaires » parmi eux selon Meilleurs Agents [MA 2017](../sources/new-article/meilleurs-agents-bordeaux-2017.md)). Mais combiné à la LGV et à la pénurie d'offre, ce **report de prix** explique pourquoi Bordeaux a pu monter plus vite que Nantes — et pourquoi un ménage local n'accède qu'à **37 m²** quand Toulouse en offre **51 m²** au même budget.
+> Ce n'est pas le seul moteur (investisseurs actifs = 35 % des acquisitions ; Parisiens « très minoritaires » parmi eux selon Meilleurs Agents [MA 2017](../external-sources/new-article/meilleurs-agents-bordeaux-2017.md)). Mais combiné à la LGV et à la pénurie d'offre, ce **report de prix** explique pourquoi Bordeaux a pu monter plus vite que Nantes — et pourquoi un ménage local n'accède qu'à **37 m²** quand Toulouse en offre **51 m²** au même budget.
 
 **Population — croissance comparable, prix incomparables**
 
@@ -186,9 +186,9 @@ Les deux villes gagnent ~10-12 % d'habitants sur la période. La différence de 
 
 ## 2 · En parallèle — Toulouse grandit sans LGV (jusqu'en 2032)
 
-Toulouse suit une **trajectoire différente** : pas de choc LGV en 2017, mais une croissance organique portée par **Airbus, l'aéronautique, l'université** (+1,2 %/an, championne de France [La Dépêche Tls](../sources/new-article/ladepeche-toulouse-3e-ville-2026.md)).
+Toulouse suit une **trajectoire différente** : pas de choc LGV en 2017, mais une croissance organique portée par **Airbus, l'aéronautique, l'université** (+1,2 %/an, championne de France [La Dépêche Tls](../external-sources/new-article/ladepeche-toulouse-3e-ville-2026.md)).
 
-**14 mars 2022** : Jean Castex signe le financement de la **LGV Bordeaux–Toulouse** — travaux 2024, service **2032** (Toulouse–Paris ~3 h, Bordeaux–Toulouse ~1 h) [Castex 2022](../sources/new-article/ladepeche-castex-lgv-toulouse-2022.md).
+**14 mars 2022** : Jean Castex signe le financement de la **LGV Bordeaux–Toulouse** — travaux 2024, service **2032** (Toulouse–Paris ~3 h, Bordeaux–Toulouse ~1 h) [Castex 2022](../external-sources/new-article/ladepeche-castex-lgv-toulouse-2022.md).
 
 ```html preview h=640px
 <!DOCTYPE html>
@@ -293,7 +293,7 @@ drawChart('p4',[ {data:idx(tls.price),color:'var(--chart-2)'},{data:idx(bdx.pric
 
 ### Lecture §2 — Pourquoi Toulouse n'explose pas (encore) ?
 
-**Plus d'habitants, plus d'industrie — mais prix +31 % sur 10 ans vs +69 % à Bordeaux** [Nexity](../sources/new-article/nexity-prix-metropoles-2013-2023.md).
+**Plus d'habitants, plus d'industrie — mais prix +31 % sur 10 ans vs +69 % à Bordeaux** [Nexity](../external-sources/new-article/nexity-prix-metropoles-2013-2023.md).
 
 La raison n'est pas un manque de dynamisme. C'est une **offre de construction qui a absorbé la demande** :
 
@@ -387,9 +387,9 @@ yl.textContent='Valeur absolue';svg.appendChild(yl);
 **Mécanismes de la crise bordelaise :**
 
 1. **Choc LGV 2016-17** — prix decollés avant que l'offre ne s'adapte ; jamais rattrapé après l'effondrement des permis.
-2. **Pénurie structurelle** — « il n'y a plus de bonnes affaires », pénurie de biens à la vente [Les Echos Bdx](../sources/new-article/lesechos-bordeaux-lgv-2017.md).
-3. **Report de prix parisiens** — vendre à Paris, acheter à Bordeaux : pouvoir d'achat relatif qui fait monter les enchères au-delà des salaires locaux ; gentrification constatée par les notaires [La Dépêche Bdx](../sources/new-article/ladepeche-bordeaux-tgv-2017.md). **Spéculation & investisseurs** (35 % des acquisitions, rendements bas acceptés) amplifie le mouvement [MA 2017](../sources/new-article/meilleurs-agents-bordeaux-2017.md).
-4. **Euratlantique** — OIN créée pour la LGV, logements orientés haut de gamme [OIN](../sources/new-article/bordeaux-euratlantique-oin.md).
+2. **Pénurie structurelle** — « il n'y a plus de bonnes affaires », pénurie de biens à la vente [Les Echos Bdx](../external-sources/new-article/lesechos-bordeaux-lgv-2017.md).
+3. **Report de prix parisiens** — vendre à Paris, acheter à Bordeaux : pouvoir d'achat relatif qui fait monter les enchères au-delà des salaires locaux ; gentrification constatée par les notaires [La Dépêche Bdx](../external-sources/new-article/ladepeche-bordeaux-tgv-2017.md). **Spéculation & investisseurs** (35 % des acquisitions, rendements bas acceptés) amplifie le mouvement [MA 2017](../external-sources/new-article/meilleurs-agents-bordeaux-2017.md).
+4. **Euratlantique** — OIN créée pour la LGV, logements orientés haut de gamme [OIN](../external-sources/new-article/bordeaux-euratlantique-oin.md).
 5. **Décorrélation salaires/prix** — 37 m² accessibles vs 51 m² à Toulouse au même budget.
 
 Nantes évite la crise : offre stable, prix +56 % (élevé mais pas +69 %). Toulouse l'évite : construction massive, prix +31 %.
@@ -540,20 +540,20 @@ document.getElementById('leg').innerHTML=paths.map(p=>`<span class="lg"><svg vie
 
 ### Presse et analyse (2017–2022)
 
-- [La Dépêche — Bordeaux et le TGV (2017)](../sources/new-article/ladepeche-bordeaux-tgv-2017.md)
-- [Les Echos — flambée bordelaise (2017)](../sources/new-article/lesechos-bordeaux-lgv-2017.md)
-- [Les Echos — marché nantais (2017)](../sources/new-article/lesechos-nantes-lgv-2017.md)
-- [Meilleurs Agents — baromètre Bordeaux (2017)](../sources/new-article/meilleurs-agents-bordeaux-2017.md)
-- [La Dépêche — Castex et LGV Bordeaux–Toulouse (2022)](../sources/new-article/ladepeche-castex-lgv-toulouse-2022.md)
-- [La Dépêche — Toulouse 3e ville (2026)](../sources/new-article/ladepeche-toulouse-3e-ville-2026.md)
+- [La Dépêche — Bordeaux et le TGV (2017)](../external-sources/new-article/ladepeche-bordeaux-tgv-2017.md)
+- [Les Echos — flambée bordelaise (2017)](../external-sources/new-article/lesechos-bordeaux-lgv-2017.md)
+- [Les Echos — marché nantais (2017)](../external-sources/new-article/lesechos-nantes-lgv-2017.md)
+- [Meilleurs Agents — baromètre Bordeaux (2017)](../external-sources/new-article/meilleurs-agents-bordeaux-2017.md)
+- [La Dépêche — Castex et LGV Bordeaux–Toulouse (2022)](../external-sources/new-article/ladepeche-castex-lgv-toulouse-2022.md)
+- [La Dépêche — Toulouse 3e ville (2026)](../external-sources/new-article/ladepeche-toulouse-3e-ville-2026.md)
 
 ### Données et documents officiels
 
-- [Nexity — prix métropoles 2013–2023](../sources/new-article/nexity-prix-metropoles-2013-2023.md)
-- [Permis de construire Bordeaux (Sitadel)](../sources/new-article/permisapi-bordeaux-33063.md)
-- [Permis de construire Nantes (Sitadel)](../sources/new-article/permisapi-nantes-44109.md)
-- [Permis de construire Toulouse (Sitadel)](../sources/new-article/permisapi-toulouse-31555.md)
-- [OIN Bordeaux Euratlantique](../sources/new-article/bordeaux-euratlantique-oin.md)
+- [Nexity — prix métropoles 2013–2023](../external-sources/new-article/nexity-prix-metropoles-2013-2023.md)
+- [Permis de construire Bordeaux (Sitadel)](../external-sources/new-article/permisapi-bordeaux-33063.md)
+- [Permis de construire Nantes (Sitadel)](../external-sources/new-article/permisapi-nantes-44109.md)
+- [Permis de construire Toulouse (Sitadel)](../external-sources/new-article/permisapi-toulouse-31555.md)
+- [OIN Bordeaux Euratlantique](../external-sources/new-article/bordeaux-euratlantique-oin.md)
 
 ## Pistes
 
