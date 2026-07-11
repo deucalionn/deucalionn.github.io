@@ -26,7 +26,7 @@ date: 2026-07-11
 **Pourquoi Bordeaux reste-t-il nettement plus cher que Nantes et Toulouse** — avec une **crise du logement** visible — alors que :
 
 - **Nantes** a reçu la **même LGV Paris-Ouest en 2017** (~2 h de Paris) ;
-- **Toulouse** est devenue la **3e commune de France** (~515 000 hab.), portée par l'aéronautique et la croissance démographique la plus forte du pays [La Dépêche Tls](./../external-sources/ladepeche-toulouse-3e-ville-2026.md) ?
+- **Toulouse** est devenue la **3e commune de France** (~515 000 hab.), portée par l'aéronautique et la croissance démographique la plus forte du pays [La Dépêche Tls](./../brain/external-sources/ladepeche-toulouse-3e-ville-2026.md) ?
 
 **Question secondaire :** Toulouse va-t-elle connaître une **envolée des prix** d'ici 2030-2032 (LGV annoncée en 2022, service prévu 2032), sachant que **Nantes est déjà plus chère** qu'elle aujourd'hui ?
 
