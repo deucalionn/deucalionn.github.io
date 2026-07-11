@@ -1,0 +1,20 @@
+{
+  "name": "deucalionn.github.io",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "astro": "^5.7.0",
+    "gray-matter": "^4.0.3",
+    "mermaid": "^11.6.0",
+    "unist-util-visit": "^5.0.0"
+  },
+  "devDependencies": {
+    "@mermaid-js/mermaid-cli": "^11.16.0",
+    "typescript": "^5.9.3"
+  }
+}

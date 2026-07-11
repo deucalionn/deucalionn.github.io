@@ -1,0 +1,43 @@
+---
+import { profile, getAge } from '../config/profile';
+
+const age = getAge(profile.birthDate);
+---
+
+<aside class="profile-sidebar">
+  <img class="profile-avatar" src={profile.avatar} alt={`Photo de profil de ${profile.username}`} width="280" height="280" />
+
+  <h1 class="profile-username">{profile.username}</h1>
+  <p class="profile-fullname">{profile.fullName}</p>
+
+  <p class="profile-location">{profile.location}</p>
+
+  <ul class="profile-socials">
+    {profile.socials.map((social) => (
+      <li>
+        <a href={social.url} rel="noopener noreferrer" target="_blank">
+          {social.label}
+        </a>
+      </li>
+    ))}
+  </ul>
+
+  <p class="profile-bio">
+    {age} ans, ingénieur informatique et investisseur immobilier. Je partage ici mes deux passions
+    à travers des articles et des études sur ces sujets. Je développe également un SaaS pour les
+    investisseurs immobiliers (<a href={profile.saas.url} rel="noopener noreferrer" target="_blank">{profile.saas.name}</a>).
+    L'idée de ce blog est de vous partager mes recherches et mes avancées avec un angle plus
+    technique et plus approfondi que mes vidéos Insta. J'utilise pas mal l'analyse de données pour
+    l'immobilier et, de manière générale, je fais pas mal de veille technique et je teste des
+    projets et de nouvelles stacks quand ça m'amuse.
+  </p>
+
+  <div class="profile-stacks">
+    <h2>Stacks</h2>
+    <ul>
+      {profile.stacks.map((stack) => (
+        <li>{stack}</li>
+      ))}
+    </ul>
+  </div>
+</aside>

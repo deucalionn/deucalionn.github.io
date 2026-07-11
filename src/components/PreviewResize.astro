@@ -1,0 +1,12 @@
+<script is:inline>
+  addEventListener('message', (event) => {
+    const height = event.data && event.data.okPreviewHeight;
+    if (!height || typeof height !== 'number') return;
+
+    document.querySelectorAll('iframe.ok-preview').forEach((frame) => {
+      if (!frame.style.height || frame.style.height === '120px') {
+        frame.style.height = `${height}px`;
+      }
+    });
+  });
+</script>

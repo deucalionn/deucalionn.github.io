@@ -1,0 +1,39 @@
+---
+import '../styles/global.css';
+import MermaidInit from '../components/MermaidInit.astro';
+import PreviewResize from '../components/PreviewResize.astro';
+
+interface Props {
+  title: string;
+  description?: string;
+  wide?: boolean;
+}
+
+const { title, description, wide = false } = Astro.props;
+const fullTitle = title === 'Accueil' ? 'deucalionn' : `${title} · deucalionn`;
+---
+
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description ?? 'Blog tech, IA et immobilier'} />
+    <title>{fullTitle}</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="site-logo" href="/">deucalionn</a>
+      <nav>
+        <a href="/">Accueil</a>
+        <a href="/categories/tech/">Tech</a>
+        <a href="/categories/immobilier/">Immobilier</a>
+      </nav>
+    </header>
+    <main class:list={['site-main', { 'site-main--wide': wide }]}>
+      <slot />
+    </main>
+    <MermaidInit />
+    <PreviewResize />
+  </body>
+</html>

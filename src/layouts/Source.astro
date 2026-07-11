@@ -1,0 +1,31 @@
+---
+import Base from './Base.astro';
+
+interface Props {
+  doc: import('astro:content').CollectionEntry<'docs'>;
+}
+
+const { doc } = Astro.props;
+const { title, description, source_url, date_fetched } = doc.data;
+
+const fetchedLabel =
+  date_fetched instanceof Date
+    ? date_fetched.toLocaleDateString('fr-FR')
+    : date_fetched;
+---
+
+<Base title={title} description={description}>
+  <article>
+    <h1>{title}</h1>
+    <div class="meta">
+      Source
+      {fetchedLabel && <> · récupérée le {fetchedLabel}</>}
+    </div>
+    {source_url && (
+      <div class="source-banner">
+        Article original : <a href={source_url} rel="noopener noreferrer">{source_url}</a>
+      </div>
+    )}
+    <slot />
+  </article>
+</Base>
