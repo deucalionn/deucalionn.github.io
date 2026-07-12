@@ -1,9 +1,7 @@
 name: Deploy site
 
 on:
-  push:
-    branches: [main]
-  workflow_dispatch:
+  workflow_dispatch: # désactivé sur push — déploiement manuel via npm run deploy
 
 permissions:
   contents: read

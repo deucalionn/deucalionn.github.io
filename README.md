@@ -19,4 +19,12 @@ Les articles sont dans `src/content/docs/`. Pour les conventions de rédaction (
 
 ## Déploiement
 
-Push sur `main` → GitHub Actions déploie automatiquement.
+Build local puis push sur la branche `gh-pages` :
+
+```bash
+npm run deploy
+```
+
+Configuration GitHub Pages (une fois) : **Settings → Pages → Deploy from branch → `gh-pages` / (root)**.
+
+Le code source reste sur `main` ; seul le HTML généré (`dist/`) part sur `gh-pages`.
